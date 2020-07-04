@@ -1,28 +1,49 @@
 <template>
-  <div id="app">
-    <img alt="Vue logo" src="./assets/logo.png">
-    <HelloWorld msg="Welcome to Your Vue.js App"/>
-  </div>
+  <v-app>
+    <app-bar />
+
+    <v-main>
+      <v-container class="pa-0 ma-0" fluid>
+        <home />
+      </v-container>
+    </v-main>
+    <app-footer />
+  </v-app>
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
+import appBar from "./components/appBar";
+import home from "./views/home";
+import "animate.css";
+import appFooter from './components/footer';
 
 export default {
-  name: 'App',
-  components: {
-    HelloWorld
-  }
-}
-</script>
+  name: "App",
 
-<style>
-#app {
-  font-family: Avenir, Helvetica, Arial, sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-  text-align: center;
-  color: #2c3e50;
-  margin-top: 60px;
-}
+  components: {
+    "app-bar": appBar,
+    home,
+    'app-footer' : appFooter
+  },
+
+  data: () => ({
+    //
+  })
+};
+</script>
+<style lang="sass">
+@import './sass/variables.scss'
+
+*::-webkit-scrollbar
+  width: 10px
+
+*::-webkit-scrollbar-track
+  background: white
+
+*::-webkit-scrollbar-thumb
+  background-color: lightgrey
+  border-radius   : 1px
+
+*::-webkit-scrollbar-thumb:hover
+  background-color: gray
 </style>
