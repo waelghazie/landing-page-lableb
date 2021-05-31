@@ -130,14 +130,13 @@
         Lableb is used trusted and successfull enitities that value powerful
         tools and appoach enhancing products to boost business
       </div>
-      <v-row justify="center">
+      <v-row justify="center" class="mx-2">
         <v-col cols="12" md="4" v-for="(item, i) in uses" :key="i">
           <v-hover v-slot="{ hover }">
             <v-card
               shaped
               width="100%"
               min-height="20rem"
-              class="mx-8"
               :elevation="hover ? 10 : 1"
             >
               <v-img height="30vh" contain :src="item.img"></v-img>

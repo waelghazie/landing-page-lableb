@@ -1,5 +1,10 @@
 # lablab
 
+## Live
+```
+https://waelghazie.github.io/landing-page-lableb/
+```
+
 ## Project setup
 ```
 npm install
