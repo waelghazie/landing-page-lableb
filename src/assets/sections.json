@@ -1,0 +1,28 @@
+{
+  "menus": [
+    {
+      "title": "Product",
+      "items": [
+        { "title": "Features", "icon": "mdi-lightning-bolt" },
+        { "title": "Try it !", "icon": "mdi-play-outline" },
+        { "title": "Pricing", "icon": "mdi-tag" }
+      ]
+    },
+    {
+      "title": "Resources",
+      "items": [
+        { "title": "RestAPI", "icon": "mdi-api" },
+        { "title": "JavaScript", "icon": "mdi-language-javascript" },
+        { "title": "PHP", "icon": "mdi-language-php" }
+      ]
+    },
+    {
+      "title": "Company",
+      "items": [
+        { "title": "About", "icon": "mdi-account-supervisor" },
+        { "title": "Blog", "icon": "mdi-blogger" },
+        { "title": "Contact us", "icon": "mdi-cellphone" }
+      ]
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 <template>
   <v-app>
     <app-bar />
-
+    <mavigate-drawer v-if="$vuetify.breakpoint.mobile"></mavigate-drawer>
     <v-main>
       <v-container class="pa-0 ma-0" fluid>
         <home />
@@ -13,6 +13,8 @@
 
 <script>
 import appBar from "./components/appBar";
+import mavigateDrawer from "./components/navigation-drawer";
+
 import home from "./views/home";
 import "animate.css";
 import appFooter from './components/footer';
@@ -23,7 +25,8 @@ export default {
   components: {
     "app-bar": appBar,
     home,
-    'app-footer' : appFooter
+    'app-footer' : appFooter,
+    mavigateDrawer
   },
 
   data: () => ({

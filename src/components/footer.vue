@@ -5,13 +5,13 @@
         <v-col cols="12" md="6" lg="6" class="d-flex justify-center">
           <div>
             <v-btn class="mx-10" icon>
-              <v-icon color="white">mdi-facebook</v-icon>
+              <v-icon large color="white">mdi-facebook</v-icon>
             </v-btn>
             <v-btn class="mx-10" icon>
-              <v-icon color="white">mdi-twitter</v-icon>
+              <v-icon large color="white">mdi-twitter</v-icon>
             </v-btn>
             <v-btn class="mx-10" icon>
-              <v-icon color="white">mdi-linkedin</v-icon>
+              <v-icon large color="white">mdi-linkedin</v-icon>
             </v-btn>
           </div>
         </v-col>
@@ -24,7 +24,7 @@
       </v-row>
       <v-row style="color: white;">
         <v-col cols="12">
-          <div class="text-caption">Copyright © 2020 lableb.com | Abu Dhabi, United Arab Emirates</div>
+          <div class="text-body-1 text-center font-weight-light ">Copyright © 2020</div>
         </v-col>
       </v-row>
     </div>
